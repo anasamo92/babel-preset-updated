@@ -13,6 +13,10 @@
         "index.js",
         "babelify.js"
     ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/anasamo92/babel-preset-updated.git"
+    },
     "scripts": {
         "test": "echo \"No test specified\""
     },
