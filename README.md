@@ -16,20 +16,20 @@ $ npm install --save-dev babel-preset-updated
 
 ```json
 {
-  "presets": ["focus"]
+  "presets": ["updated"]
 }
 ```
 
 ### Via CLI
 
 ```sh
-$ babel script.js --presets focus
+$ babel script.js --presets updated
 ```
 
 ### Via Node API
 
 ```javascript
 require("babel-core").transform("code", {
-  presets: ["focus"]
+  presets: ["updated"]
 });
 ```
